@@ -1,0 +1,336 @@
+*
+{
+    font-family: 'Montserrat', sans-serif;font-family: 'Montserrat', sans-serif;
+}
+.head
+{
+    color:rgb(134, 156, 185) ;
+}
+header
+{
+    background: url(forclazpic.jpeg);
+    background-position: top;
+    height: 100%;
+}
+.navbar
+{
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 700;
+    position: fixed;
+    cursor: default;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(rgb(105, 158, 238), rgb(138, 185, 238));
+}
+.myname
+{
+    letter-spacing: 0.3vw;
+    transition: 0.6s ease-in-out;
+}
+.myname:hover
+{
+    letter-spacing: 1vw;
+}
+.nav-item
+{
+    width: 100%;
+}
+.navcount
+{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    background: transparent;
+    left: 12rem;
+}
+
+.fw-bold
+{
+    
+    color: rgb(180, 208, 226);
+    transition: 0.6s ease-in-out;
+    letter-spacing: 0.091vw;
+}
+.fw-bold:hover
+{
+    color: rgb(246, 248, 250);
+    letter-spacing: 0.15vw;
+}
+li
+{
+    z-index: 3;
+}
+.spans
+{
+    position: absolute;
+    width: 6.5rem;
+    background: repeating-linear-gradient(rgb(28, 73, 19), rgb(105, 119, 107) );
+    height: 100%;
+    left: 50.8rem;
+    border-radius: 8px;
+    transition: 0.3s;
+    z-index: 2;
+}
+.navbar-toggler:focus
+{
+    border: transparent;
+}
+.navbar-toggler-icon
+{
+    border-radius: px;
+    border: none;
+    color: white;
+}
+.quotebox
+{
+    width: 3rem;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.1vw;
+    margin-top: 20rem;
+    background-color: rgb(10, 40, 73);
+    outline: none;
+    
+    border-radius: 5px;
+    box-shadow: 0px 2.5px 10px black;
+}
+.about
+{
+    background-color: rgb(255, 255, 255);
+}
+.rowouter
+{
+    background-color:  rgb(10, 40, 73);
+    
+    color:  rgb(37, 83, 105);
+}
+.abt-head
+{
+    border-bottom: 2px rgb(38, 51, 65) solid;
+    width: 100%;
+    background-color: rgb(63, 99, 138) ;
+    color: white;
+    padding-left: 0.90vw;
+}
+.abt-body
+{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.dot
+{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: rgb(205, 206, 206);
+
+}
+.studyclass
+{
+    font-size: medium;
+    border-bottom: 1px rgb(2, 10, 14) solid;
+}
+.skills
+{
+    background-color: rgb(232, 237, 240);
+}
+.skill
+{
+    font-size: 1rem;
+    color: rgb(2, 10, 14) ;
+}
+.bg-success
+{
+    background: rgb(0, 37, 51);
+}
+.experience
+{
+    background-color: rgb(118, 147, 158);
+}
+.contact
+{
+    background-color: rgb(1, 57, 88);
+    
+}
+.divider
+{
+    font-family: 'Montserrat', sans-serif;font-family: 'Montserrat', sans-serif;
+    transition: 0.6s ease-in-out;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: rgb(10, 39, 73);
+    letter-spacing: 0.28vw;
+}
+.divider:hover
+{
+    border-bottom: 1px rgb(20, 69, 129) solid;
+    width: 95%;
+    border-top: 1px rgb(20, 69, 129) ridge;
+}
+.card-img
+{
+    
+    height: 14rem;
+}
+.card-title
+{
+    font-weight: 600;
+}
+.card-text
+{
+    font-weight: 100;
+}
+article
+{
+    background-color: white;
+}
+.form-label
+{
+    color: white;
+    
+}
+.btn
+{
+    background-color: rgb(63, 145, 192);
+}
+.social-border
+{
+    color: white;
+    box-shadow: 0px 2.5px 10px rgb(3, 27, 41);
+    
+}
+.sideicon
+{
+   color: rgb(228, 227, 227);
+   width: 3rem;
+   height: 3rem;
+   border-radius: 50%;
+   background-color: rgb(0, 0, 0);
+   display: block;
+}
+.icontext
+{
+    font-size: 13.5px;
+    color:  rgb(128, 152, 161);
+    overflow: hidden;
+}
+.belowicon
+{
+   color: rgb(228, 227, 227);
+   width: 2.3rem;
+   height: 2.3rem;
+   border-radius: 50%;
+   background-color:transparent;
+   border: 0.3px grey solid;
+   display: block;
+}
+.belowicon:hover
+{
+    background-color: white;
+    color :  rgb(1, 57, 88);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-item a:nth-child(1):hover~span
+{
+    left: 50.8rem;
+    width: 6.5rem;
+    backdrop-filter: blur(4px);
+}
+.nav-item a:nth-child(1):focus~span
+{
+    left: 50.8rem;
+    width: 6.5rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(2):hover~.spans
+{
+    left: 57.3rem;
+    width: 5.7rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(2):focus~span
+{
+    left: 57.3rem;
+    width: 5.7rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(1):hover~span
+{
+    left: 50.8rem;
+    width: 6.5rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(3):hover~span
+{
+    left: 63rem;
+    width: 9.1rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(3):focus~span
+{
+    left: 63rem;
+    width: 9.1rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(1):hover~span
+{
+    left: 50.8rem;
+    width: 6.5rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(2):hover~span
+{
+    left: 57.3rem;
+    width: 5.7rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(4):hover~span
+{
+    left: 72.1rem;
+    width: 7.2rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(4):focus~span
+{
+    left: 72.1rem;
+    width: 7.2rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(1):hover~span
+{
+    left: 50.8rem;
+    width: 6.5rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(2):hover~span
+{
+    left: 57.3rem;
+    width: 5.7rem;
+    backdrop-filter: blur(4px);
+}
+.navcont a:nth-child(3):hover~span
+{
+    left: 63rem;
+    width: 9.1rem;
+    backdrop-filter: blur(4px);
+}
+
